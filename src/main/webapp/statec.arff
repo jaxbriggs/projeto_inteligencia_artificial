@@ -1,3 +1,51 @@
+% 1. Título: Câncer de Próstata Estágio C
+% 
+% 2. Fontes:
+%      (a) https://vincentarelbundock.github.io/Rdatasets/datasets.html
+%      (b) Criador: Desconhecido
+%      (c) Doador: Desconhecido
+%      (d) Data: Maio, 2016
+% 
+% 
+% 3. Informações Importantes:
+%    --- O tumor é chamado diploide se a fração das células na fase G2 foi 
+%        determinada para ser de 13% ou menos. Células aneuploides tem uma 
+%        fração mensurável com a contagem de cromossomos que não é nem 24, 
+%        nem 48, para esta porcentagem de G2 é difícil ou impossível de medir.
+%    --- Atributo a ser descoberto: classe da ploidia do tecido cancerígeno da próstata.
+% 
+% 4. Número de Instâncias: 146 (11 aneuploid, 67 diploid e 68 tetraploid).
+% 
+% 6. Número de Atributos: 5 numéricos, 2 atributos numérico-representativos e a classe.
+% 
+% 7. Informações Sobre os Atributos:
+%    1. Tempo de progresso do câncer desde ou último avanço (anos).
+%    2. 1 = progressão observada, 0 = censorizada.
+%    3. Idade em anos.
+%    4. Terapia Endócrina Adjuvante 1 = no, 2 = yes.
+%    5. Porcentagem de células na fase F2, encontrada pela citometria de fluxo.
+%    6. Grau do tumor, sistema Farrow.
+%    7. Grau do tumor, sistema Gleason.
+%    8. classe: 
+%       -- aneuploid
+%       -- diploid
+%       -- tetraploid
+% 
+% 8. Valores de atributos faltantes: Nenhum.
+% 
+% Sumário de Estatísticas:
+%  	           Min  Max   Mean    SD   
+%          pgtime: 0.3  17.7  6.32  3.62    
+%          pgstat: 0    1     0.37  0.48   
+%             age: 47.0 75.0  63.0  5.82    
+%             eet: 0    2     1.73  0.48   
+%              g2: 0    54.93 13.59 8.58    
+%           grade: 1    4     2.61  0.59    
+%         gleason: 0    10    6.22  1.61    
+%    
+% 
+% 9. Distribuição das classes: 7.5% para aneuploide, 45.9% para diploide e 46.6% para tetraploide.
+
 @relation prostata_estagio_C
 
 @attribute 'pgtime' numeric
