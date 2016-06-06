@@ -18,12 +18,6 @@
                 <label for="kval">Valor de K: </label>
                 <input type="number" name="kval" min="1" value="3"/><br/><br/>
                 
-                <label for="ftreino">Valor de Folds (Treino): </label>
-                <input type="number" name="ftreino" min="2" max="146" value="2"/><br/><br/>
-                
-                <label for="fteste">Valor de Folds (Teste): </label>
-                <input type="number" name="fteste" min="2" max="146" value="2"/><br/><br/>
-                
                 <label for="file">Arquivo .arff: </label>
                 <input type="file" name="file" /><br/><br/>
                 
