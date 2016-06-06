@@ -1,3 +1,38 @@
+% 1. Título: Câncer de Próstata Estágio C
+% 
+% 2. Fontes:
+%      (a) Criador: Carlos Henrique e Nicholas Guedes
+%      (c) Data: Junho, 2016
+% 
+% 
+% 3. Informações Importantes:
+%    --- O tumor é chamado diploide se a fração das células na fase G2 foi 
+%        determinada para ser de 13% ou menos. Células aneuploides tem uma 
+%        fração mensurável com a contagem de cromossomos que não é nem 24, 
+%        nem 48, para esta porcentagem de G2 é difícil ou impossível de medir.
+%    --- Atributo a ser descoberto: classe da ploidia do tecido cancerígeno da próstata.
+% 
+% 4. Número de Instâncias: 134 (5 aneuploid, 65 diploid e 64 tetraploid).
+% 
+% 6. Número de Atributos: 8 atributos nominais.
+% 
+% 7. Informações Sobre os Atributos:
+%    1. Tempo de progresso do câncer desde ou último avanço (anos).
+%    2. 1 = progressão observada, 0 = censorizada.
+%    3. Idade em anos.
+%    4. Terapia Endócrina Adjuvante 1 = no, 2 = yes.
+%    5. Porcentagem de células na fase F2, encontrada pela citometria de fluxo.
+%    6. Grau do tumor, sistema Farrow.
+%    7. Grau do tumor, sistema Gleason.
+%    8. classe: 
+%       -- aneuploid
+%       -- diploid
+%       -- tetraploid
+% 
+% 8. Valores de atributos faltantes: 12 valores.   
+% 
+% 9. Distribuição das classes: 3.73% para aneuploide, 48.51% para diploide e 47.76% para tetraploide.
+
 @relation prostata_estagio_C.symbolic
 
 @attribute pgtime {lento, muito-lento, muito-rapido, normal, rapido}
